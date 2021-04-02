@@ -1,0 +1,25 @@
+{
+  "name": "someonebot",
+  "version": "0.0.1",
+  "description": "help i've fallen and i cant get up i need @Someone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.5.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/ashpotter/someonebot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "someone",
+    "april",
+    "fools"
+  ]
+}

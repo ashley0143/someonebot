@@ -13,7 +13,7 @@ const { Client } = require('discord.js'),
 
 let mentionReg;
 
-client.once('ready', async () => {
+client.on('ready', async () => {
   mentionReg = new RegExp(`^<@!?${client.user.id}>$`);
   await client.user.setActivity("help i've fallen and I can't get up, I need @someone");
 });
